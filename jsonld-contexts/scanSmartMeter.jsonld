@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "AgriCropRecord": "https://uri.fiware.org/ns/data-models#AgriCropRecord",
+    "Person": "https://uri.fiware.org/ns/data-models#Person",
+    "absorbance": "https://uri.fiware.org/ns/data-models#absorbance",
+    "redox": "https://uri.fiware.org/ns/data-models#redox",
+    "cityName": "https://uri.fiware.org/ns/data-models#cityName",
+    "lastName": "https://uri.fiware.org/ns/data-models#lastName",
+    "firstName": "https://uri.fiware.org/ns/data-models#firstName",
+    "addressLocality": "https://uri.fiware.org/ns/data-models#addressLocality",
+    "addressCountry": "https://uri.fiware.org/ns/data-models#addressCountry",
+    "addressStreet": "https://uri.fiware.org/ns/data-models#addressStreet",
+    "contactEmail": "https://uri.fiware.org/ns/data-models#contactEmail",
+    "contactTelephone": "https://uri.fiware.org/ns/data-models#contactTelephone"
+  }
+}

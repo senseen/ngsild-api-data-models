@@ -1,0 +1,73 @@
+{
+	"@context": [		
+		"https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+	],
+	"id": "urn:ngsi-ld:AgriCropRecord:login:nameProduct:uuid",
+    "type": "AgriParcelRecord",   
+	"hasAgriCrop": {
+		"type": "Relationship",
+		"object": "urn:ngsi-ld:AgriCrop:login:nameProduct:uuid"
+	},
+	"pressure": {
+		"type": "Property",
+		"value": "1013.25",		
+		"observedAt": "2017-05-04T12:30:00Z"
+	},
+	"humidity": {
+		"type": "Property",
+		"value": "0.25",		
+		"observedAt": "2017-05-04T12:30:00Z"
+	},
+	"temperature": {
+		"type": "Property",
+		"value": "25.1",		
+		"observedAt": "2017-05-04T12:30:00Z"
+    },
+	"redox": [
+		{
+			"type": "Property",
+			"value": "1013.25",
+			"observatedAt":"time",
+			"datasetId": "urn:ngsi-ld:predict"	
+		},
+		{
+			"type": "Property",
+			"value": "1013.25",
+			"observatedAt":"time",
+			"datasetId": "urn:ngsi-ld:measured"			
+		}
+	],
+    "conductivity": [
+		{
+			"type": "Property",
+			"value": "1013.25",
+			"observatedAt":"time",
+			"datasetId": "urn:ngsi-ld:predict"	
+		},
+		{
+			"type": "Property",
+			"value": "1013.25",
+			"observatedAt":"time",
+			"datasetId": "urn:ngsi-ld:measured"			
+		}
+	],
+    "pH": [
+		{
+			"type": "Property",
+			"value": "1013.25",
+			"observatedAt":"time",
+			"datasetId": "urn:ngsi-ld:predict"	
+		},
+		{
+			"type": "Property",
+			"value": "1013.25",
+			"observatedAt":"time",
+			"datasetId": "urn:ngsi-ld:measured"			
+		}
+	],
+	"absorbance" :{
+		"type":"Property",
+        "value":"notreScan",
+        "observatedAt":"2021-02-11T15:43:54Z"
+	}
+}
