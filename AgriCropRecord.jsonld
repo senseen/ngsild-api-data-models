@@ -1,0 +1,9 @@
+{
+    "@context": {
+        "AgriCropRecord": "https://uri.fiware.org/ns/data-models#AgriCropRecord",
+        "pressure": "https://uri.fiware.org/ns/data-models#pressure",
+        "humidity": "https://uri.fiware.org/ns/data-models#humidity",
+        "temperature": "https://uri.fiware.org/ns/data-models#temperature",
+        "cityName": "https://uri.fiware.org/ns/data-models#cityName"
+    }
+}
