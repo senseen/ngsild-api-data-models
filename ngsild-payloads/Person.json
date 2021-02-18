@@ -1,37 +1,36 @@
 {
     "@context": [
-        "https://schema.lab.fiware.org/ld/context",
-        "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+        "https://raw.githubusercontent.com/senseen/ngsild-api-data-models/feature/update-scanner-model/jsonld-contexts/scanSmartMeter.jsonld"
     ],
     "id": "urn:ngsi-ld:Person:login",
     "type": "Person",
     
     "lastName" :{
-        "type": "Property",
-        "value": "Poujol"
+        "type":"Property",
+        "value":"Poujol"
     },
     "firstName" :{
-        "type": "Property",
-        "value": "Gaël"
+        "type":"Property",
+        "value":"Gaël"
     },
     "addressLocality": {
-        "type": "Property",
-        "value": "Antibes"
+        "type":"Property",
+        "value":"Antibes"
     },
     "addressCountry": {
-        "type": "Property",
-        "value": "France"
+        "type":"Property",
+        "value":"France"
     },
     "addressStreet": {
-        "type": "Property",
-        "value": "12 avenue Robert Soleau"
+        "type":"Property",
+        "value":"avenue Robert Soleau"
     },
-    "contactEmail": {
-        "type": "Property",
-        "value": "gael.poujol@senseen.io"
+    "email": {
+        "type":"Property",
+        "value":"gael.poujol@senseen.io"
     },
-    "contactTelephone": {
-        "type": "Property",
-        "value": "0659482417"
+    "telephone": {
+        "type":"Property",
+        "value":"0606060606"
     }
 }

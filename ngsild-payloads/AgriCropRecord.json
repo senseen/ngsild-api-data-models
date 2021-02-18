@@ -1,67 +1,76 @@
 {
 	"@context": [		
-		"https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+		"https://raw.githubusercontent.com/senseen/ngsild-api-data-models/feature/update-scanner-model/jsonld-contexts/scanSmartMeter.jsonld"
 	],
-	"id": "urn:ngsi-ld:AgriCropRecord:login:nameProduct:uuid",
-    "type": "AgriParcelRecord",   
+	"id":"urn:ngsi-ld:AgriCropRecord:login:nameProduct:uuid",
+    "type":"AgriParcelRecord",   
 	"hasAgriCrop": {
 		"type": "Relationship",
 		"object": "urn:ngsi-ld:AgriCrop:login:nameProduct:uuid"
 	},
 	"pressure": {
-		"type": "Property",
-		"value": "1013.25",		
+		"type":"Property",
+		"value":1013.25,
+		"unitCode": "A97",		
 		"observedAt": "2017-05-04T12:30:00Z"
 	},
 	"humidity": {
-		"type": "Property",
-		"value": "0.25",		
+		"type":"Property",
+		"value":0.25,
+		"unitCode": "P1",		
 		"observedAt": "2017-05-04T12:30:00Z"
 	},
 	"temperature": {
-		"type": "Property",
-		"value": "25.1",		
+		"type":"Property",
+		"value":25.1,
+		"unitCode": "CEL",		
 		"observedAt": "2017-05-04T12:30:00Z"
     },
 	"redox": [
 		{
-			"type": "Property",
-			"value": "1013.25",
-			"observatedAt":"time",
+			"type":"Property",
+			"value":1013.25,
+			"unitCode": "2Z",
+			"observatedAt":"2021-02-11T15:43:54Z",
 			"datasetId": "urn:ngsi-ld:predict"	
 		},
 		{
-			"type": "Property",
-			"value": "1013.25",
-			"observatedAt":"time",
+			"type":"Property",
+			"value":1013.25,
+			"unitCode": "2Z",
+			"observatedAt":"2021-02-11T15:43:54Z",
 			"datasetId": "urn:ngsi-ld:measured"			
 		}
 	],
     "conductivity": [
 		{
-			"type": "Property",
-			"value": "1013.25",
-			"observatedAt":"time",
+			"type":"Property",
+			"value":1013.25,
+			"unitCode": "H61",
+			"observatedAt":"2021-02-11T15:43:54Z",
 			"datasetId": "urn:ngsi-ld:predict"	
 		},
 		{
-			"type": "Property",
-			"value": "1013.25",
-			"observatedAt":"time",
+			"type":"Property",
+			"value":1013.25,
+			"unitCode": "H61",
+			"observatedAt":"2021-02-11T15:43:54Z",
 			"datasetId": "urn:ngsi-ld:measured"			
 		}
 	],
     "pH": [
 		{
-			"type": "Property",
-			"value": "1013.25",
-			"observatedAt":"time",
+			"type":"Property",
+			"value":1013.25,
+			"unitCode": "C62",
+			"observatedAt":"2021-02-11T15:43:54Z",
 			"datasetId": "urn:ngsi-ld:predict"	
 		},
 		{
-			"type": "Property",
-			"value": "1013.25",
-			"observatedAt":"time",
+			"type":"Property",
+			"value":1013.25,
+			"unitCode": "C62",
+			"observatedAt":"2021-02-11T15:43:54Z",
 			"datasetId": "urn:ngsi-ld:measured"			
 		}
 	],
