@@ -10,7 +10,6 @@
     "addressLocality": "https://uri.fiware.org/ns/data-models#addressLocality",
     "addressCountry": "https://uri.fiware.org/ns/data-models#addressCountry",
     "addressStreet": "https://uri.fiware.org/ns/data-models#addressStreet",
-    "email": "https://uri.fiware.org/ns/data-models#email
-
+    "email": "https://uri.fiware.org/ns/data-models#email"
   }
 }
