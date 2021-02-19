@@ -12,34 +12,34 @@
 		"type":"Property",
 		"value":1013.25,
 		"unitCode": "A97",		
-		"observedAt": "2017-05-04T12:30:00Z"
+		"observedAt": "2021-02-19T09:13:14.000Z"
 	},
 	"humidity": {
 		"type":"Property",
 		"value":0.25,
 		"unitCode": "P1",		
-		"observedAt": "2017-05-04T12:30:00Z"
+		"observedAt": "2021-02-19T09:13:14.000Z"
 	},
 	"temperature": {
 		"type":"Property",
 		"value":25.1,
 		"unitCode": "CEL",		
-		"observedAt": "2017-05-04T12:30:00Z"
+		"observedAt": "2021-02-19T09:13:14.000Z"
     },
 	"redox": [
 		{
 			"type":"Property",
 			"value":1013.25,
 			"unitCode": "2Z",
-			"observatedAt":"2021-02-11T15:43:54Z",
-			"datasetId": "urn:ngsi-ld:predict"	
+			"observatedAt":"2021-02-19T09:13:14.000Z",
+			"datasetId": "urn:ngsi-ld:redox:predict"	
 		},
 		{
 			"type":"Property",
 			"value":1013.25,
 			"unitCode": "2Z",
-			"observatedAt":"2021-02-11T15:43:54Z",
-			"datasetId": "urn:ngsi-ld:measured"			
+			"observatedAt":"2021-02-19T09:13:14.000Z",
+			"datasetId": "urn:ngsi-ld:redox:measured"			
 		}
 	],
     "conductivity": [
@@ -47,15 +47,15 @@
 			"type":"Property",
 			"value":1013.25,
 			"unitCode": "H61",
-			"observatedAt":"2021-02-11T15:43:54Z",
-			"datasetId": "urn:ngsi-ld:predict"	
+			"observatedAt":"2021-02-19T09:13:14.000Z",
+			"datasetId": "urn:ngsi-ld:conductivity:predict"	
 		},
 		{
 			"type":"Property",
 			"value":1013.25,
 			"unitCode": "H61",
-			"observatedAt":"2021-02-11T15:43:54Z",
-			"datasetId": "urn:ngsi-ld:measured"			
+			"observatedAt":"2021-02-19T09:13:14.000Z",
+			"datasetId": "urn:ngsi-ld:conductivity:measured"			
 		}
 	],
     "pH": [
@@ -63,20 +63,20 @@
 			"type":"Property",
 			"value":1013.25,
 			"unitCode": "C62",
-			"observatedAt":"2021-02-11T15:43:54Z",
-			"datasetId": "urn:ngsi-ld:predict"	
+			"observatedAt":"2021-02-19T09:13:14.000Z",
+			"datasetId": "urn:ngsi-ld:pH:predict"	
 		},
 		{
 			"type":"Property",
 			"value":1013.25,
 			"unitCode": "C62",
-			"observatedAt":"2021-02-11T15:43:54Z",
-			"datasetId": "urn:ngsi-ld:measured"			
+			"observatedAt":"2021-02-19T09:13:14.000Z",
+			"datasetId": "urn:ngsi-ld:pH:measured"			
 		}
 	],
 	"absorbance" :{
 		"type":"Property",
         "value":"notreScan",
-        "observatedAt":"2021-02-11T15:43:54Z"
+        "observatedAt":"2021-02-19T09:13:14.000Z"
 	}
 }
