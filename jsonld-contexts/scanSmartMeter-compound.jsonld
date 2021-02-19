@@ -1,5 +1,5 @@
 {
-  "@context":[
+  "@context": [
     "https://raw.githubusercontent.com/senseen/ngsild-api-data-models/main/jsonld-contexts/scanSmartMeter.jsonld",
     "https://fiware.github.io/data-models/context.jsonld",
     "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"

@@ -4,33 +4,32 @@
     ],
     "id": "urn:ngsi-ld:Person:login",
     "type": "Person",
-    
-    "lastName" :{
-        "type":"Property",
-        "value":"Poujol"
+    "lastName": {
+        "type": "Property",
+        "value": "Poujol"
     },
-    "firstName" :{
-        "type":"Property",
-        "value":"Gaël"
+    "firstName": {
+        "type": "Property",
+        "value": "Gaël"
     },
     "addressLocality": {
-        "type":"Property",
-        "value":"Antibes"
+        "type": "Property",
+        "value": "Antibes"
     },
     "addressCountry": {
-        "type":"Property",
-        "value":"France"
+        "type": "Property",
+        "value": "France"
     },
     "addressStreet": {
-        "type":"Property",
-        "value":"avenue Robert Soleau"
+        "type": "Property",
+        "value": "avenue Robert Soleau"
     },
     "email": {
-        "type":"Property",
-        "value":"gael.poujol@senseen.io"
+        "type": "Property",
+        "value": "gael.poujol@senseen.io"
     },
     "telephone": {
-        "type":"Property",
-        "value":"0606060606"
+        "type": "Property",
+        "value": "0606060606"
     }
 }
