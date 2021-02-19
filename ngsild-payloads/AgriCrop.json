@@ -1,0 +1,19 @@
+{
+    "@context": [        
+        "https://raw.githubusercontent.com/senseen/ngsild-api-data-models/feature/update-scanner-model/jsonld-contexts/scanSmartMeter.jsonld"
+    ],
+    "id": "urn:ngsi-ld:AgriCrop:login:nameProduct:uuid",
+    "type":"AgriCrop",
+    "description": {
+        "type":"Property",
+        "value":"A farm producing wheat"
+    },    
+    "name": {
+        "type":"Property",
+        "value":"wheat"
+    } ,   
+    "cityName" :{
+        "type":"Property",        
+        "value":"Sophia Antipolis"
+    }   
+}

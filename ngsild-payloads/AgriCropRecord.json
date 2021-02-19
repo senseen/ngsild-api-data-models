@@ -1,0 +1,82 @@
+{
+	"@context": [		
+		"https://raw.githubusercontent.com/senseen/ngsild-api-data-models/feature/update-scanner-model/jsonld-contexts/scanSmartMeter.jsonld"
+	],
+	"id":"urn:ngsi-ld:AgriCropRecord:login:nameProduct:uuid",
+    "type":"AgriParcelRecord",   
+	"hasAgriCrop": {
+		"type": "Relationship",
+		"object": "urn:ngsi-ld:AgriCrop:login:nameProduct:uuid"
+	},
+	"pressure": {
+		"type":"Property",
+		"value":1013.25,
+		"unitCode": "A97",		
+		"observedAt": "2021-02-19T09:13:14.000Z"
+	},
+	"humidity": {
+		"type":"Property",
+		"value":0.25,
+		"unitCode": "P1",		
+		"observedAt": "2021-02-19T09:13:14.000Z"
+	},
+	"temperature": {
+		"type":"Property",
+		"value":25.1,
+		"unitCode": "CEL",		
+		"observedAt": "2021-02-19T09:13:14.000Z"
+    },
+	"redox": [
+		{
+			"type":"Property",
+			"value":1013.25,
+			"unitCode": "2Z",
+			"observedAt":"2021-02-19T09:13:14.000Z",
+			"datasetId": "urn:ngsi-ld:redox:predict"	
+		},
+		{
+			"type":"Property",
+			"value":1013.25,
+			"unitCode": "2Z",
+			"observedAt":"2021-02-19T09:13:14.000Z",
+			"datasetId": "urn:ngsi-ld:redox:measured"			
+		}
+	],
+    "conductivity": [
+		{
+			"type":"Property",
+			"value":1013.25,
+			"unitCode": "H61",
+			"observedAt":"2021-02-19T09:13:14.000Z",
+			"datasetId": "urn:ngsi-ld:conductivity:predict"	
+		},
+		{
+			"type":"Property",
+			"value":1013.25,
+			"unitCode": "H61",
+			"observedAt":"2021-02-19T09:13:14.000Z",
+			"datasetId": "urn:ngsi-ld:conductivity:measured"			
+		}
+	],
+    "pH": [
+		{
+			"type":"Property",
+			"value":1013.25,
+			"unitCode": "C62",
+			"observedAt":"2021-02-19T09:13:14.000Z",
+			"datasetId": "urn:ngsi-ld:pH:predict"	
+		},
+		{
+			"type":"Property",
+			"value":1013.25,
+			"unitCode": "C62",
+			"observedAt":"2021-02-19T09:13:14.000Z",
+			"datasetId": "urn:ngsi-ld:pH:measured"			
+		}
+	],
+	"absorbance" :{
+		"type":"Property",
+        "value":"notreScan",
+        "observedAt":"2021-02-19T09:13:14.000Z"
+	}
+}
