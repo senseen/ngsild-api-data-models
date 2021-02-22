@@ -15,5 +15,9 @@
     "cityName": {
         "type": "Property",
         "value": "Sophia Antipolis"
+    },
+    "owner":{
+        "type":"Property",
+        "value":"urn:ngsi-ld:AgriCrop:login"
     }
 }
