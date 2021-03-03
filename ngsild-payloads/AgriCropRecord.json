@@ -74,9 +74,24 @@
 			"datasetId": "urn:ngsi-ld:pH:measured"
 		}
 	],
-	"absorbance": {
-		"type": "Property",
-		"value": "notreScan",
-		"observedAt": "2021-02-19T09:13:14.000Z"
-	}
+	"absorbance": [
+		{
+			"type": "Property",
+			"value": "spectrum1",
+			"observedAt": "2021-02-19T09:13:14.000Z",
+			"datasetId": "urn:ngsi-ld:absorbance:1"
+		},
+		{
+			"type": "Property",
+			"value": "spectrum2",
+			"observedAt": "2021-02-19T09:13:14.000Z",
+			"datasetId": "urn:ngsi-ld:absorbance:2"
+		},
+		{
+			"type": "Property",
+			"value": "spectrum3",
+			"observedAt": "2021-02-19T09:13:14.000Z",
+			"datasetId": "urn:ngsi-ld:absorbance:3"
+		}
+	]
 }
