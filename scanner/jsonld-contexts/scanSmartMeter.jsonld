@@ -12,6 +12,7 @@
     "addressStreet": "https://uri.fiware.org/ns/data-models#addressStreet",
     "email": "https://uri.fiware.org/ns/data-models#email",
     "ph": "https://uri.fiware.org/ns/data-models#ph",
-    "MLProcessing": "https://uri.fiware.org/ns/data-models#MLProcessing"
+    "MLProcessing": "https://uri.fiware.org/ns/data-models#MLProcessing",
+    "SubscriptionQuery":"https://uri.fiware.org/ns/data-models#SubscriptionQuery"
   }
 }
