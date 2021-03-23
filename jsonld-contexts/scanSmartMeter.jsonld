@@ -4,6 +4,7 @@
     "Person": "https://uri.fiware.org/ns/data-models#Person",
     "absorbance": "https://uri.fiware.org/ns/data-models#absorbance",
     "redox": "https://uri.fiware.org/ns/data-models#redox",
+    "brix": "https://uri.fiware.org/ns/data-models#brix",
     "cityName": "https://uri.fiware.org/ns/data-models#cityName",
     "lastName": "https://uri.fiware.org/ns/data-models#lastName",
     "firstName": "https://uri.fiware.org/ns/data-models#firstName",

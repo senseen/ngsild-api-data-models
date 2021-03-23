@@ -12,6 +12,10 @@
     "addressStreet": "https://uri.fiware.org/ns/data-models#addressStreet",
     "email": "https://uri.fiware.org/ns/data-models#email",
     "ph": "https://uri.fiware.org/ns/data-models#ph",
-    "tempLamp": "https://uri.fiware.org/ns/data-models#tempLamp"
+    "tempLamp": "https://uri.fiware.org/ns/data-models#tempLamp",
+    "MLProcessing": "https://uri.fiware.org/ns/data-models#MLProcessing",
+    "SubscriptionQuery": "https://uri.fiware.org/ns/data-models#SubscriptionQuery",
+    "brix": "https://uri.fiware.org/ns/data-models#brix"
+
   }
 }
