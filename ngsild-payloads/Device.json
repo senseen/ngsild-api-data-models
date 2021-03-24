@@ -1,0 +1,56 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/senseen/ngsild-api-data-models/main/scanner/jsonld-contexts/scanSmartMeter-compound.jsonld"
+    ],  
+    "id": "urn:ngsi-ld:Device:device-9845A",
+    "type":"Device", 
+    "category": {
+        "type":"Property",
+        "value":"sensor"
+    },
+    "controlledProperty":{
+        "type":"Property",
+        "value":"spectrum"
+    },       
+    "dateFirstUsed":  {
+        "type":"Property",
+        "value":"2014-09-11T11:00:00Z"
+    },
+    "deviceState": {
+        "type":"Property",
+        "value":"ok",
+        "observedAt": "2021-02-19T09:13:14.000Z"
+    }, 
+    "owner":{
+        "type":"Relationship",
+        "value":["urn:ngsi-ld:Person:login"]
+    },
+    "macAddress":{
+        "type":"Property",
+        "value":"@mac"
+    },  
+    "serialNumber":{
+        "type":"Property",
+        "value":"9845A"
+    },
+    "temperature":{
+        "value": 25.1,
+		"unitCode": "CEL",
+		"observedAt": "2021-02-19T09:13:14.000Z"
+    },
+    "humidity":{
+        "value": 0.25,
+		"unitCode": "P1",
+		"observedAt": "2021-02-19T09:13:14.000Z"
+    },
+    "tempLamp":{
+        "type":"Property",
+        "value": 0.25,
+        "observedAt": "2021-02-19T09:13:14.000Z"
+    },
+    "batteryLevel":{
+        "value": 0.25,
+		"unitCode": "P1",
+		"observedAt": "2021-02-19T09:13:14.000Z"
+    }
+}
