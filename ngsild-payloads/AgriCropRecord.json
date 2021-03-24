@@ -74,6 +74,10 @@
 			"datasetId": "urn:ngsi-ld:pH:measured"
 		}
 	],
+	"observedBy": {
+		"type": "Relationship",
+		"object": "urn:ngsi-ld:Device:xxxxx"
+	},
 	"absorbance": [
 		{
 			"type": "Property",
@@ -93,5 +97,6 @@
 			"observedAt": "2021-02-19T09:13:14.000Z",
 			"datasetId": "urn:ngsi-ld:absorbance:3"
 		}
+		
 	]
 }
