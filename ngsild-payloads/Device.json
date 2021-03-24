@@ -6,7 +6,7 @@
     "type":"Device", 
     "category": {
         "type":"Property",
-        "value":"sensor"
+        "value":"scanner"
     },
     "controlledProperty":{
         "type":"Property",
