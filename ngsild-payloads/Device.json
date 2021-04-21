@@ -34,11 +34,13 @@
         "value":"9845A"
     },
     "temperature":{
+        "type":"Property",
         "value": 25.1,
 		"unitCode": "CEL",
 		"observedAt": "2021-02-19T09:13:14.000Z"
     },
     "humidity":{
+        "type":"Property",
         "value": 0.25,
 		"unitCode": "P1",
 		"observedAt": "2021-02-19T09:13:14.000Z"
@@ -49,6 +51,7 @@
         "observedAt": "2021-02-19T09:13:14.000Z"
     },
     "batteryLevel":{
+        "type":"Property",
         "value": 0.25,
 		"unitCode": "P1",
 		"observedAt": "2021-02-19T09:13:14.000Z"

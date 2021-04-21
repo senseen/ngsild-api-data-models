@@ -12,33 +12,33 @@
 		"type": "Property",
 		"value": 1013.25,
 		"unitCode": "A97",
-		"observedAt": "2021-02-19T09:13:14.000Z"
+		"observedAt": "2021-02-19T09:13:14Z"
 	},
 	"humidity": {
 		"type": "Property",
 		"value": 0.25,
 		"unitCode": "P1",
-		"observedAt": "2021-02-19T09:13:14.000Z"
+		"observedAt": "2021-02-19T09:13:14Z"
 	},
 	"temperature": {
 		"type": "Property",
 		"value": 25.1,
 		"unitCode": "CEL",
-		"observedAt": "2021-02-19T09:13:14.000Z"
+		"observedAt": "2021-02-19T09:13:14Z"
 	},
 	"redox": [
 		{
 			"type": "Property",
 			"value": 1013.25,
 			"unitCode": "2Z",
-			"observedAt": "2021-02-19T09:13:14.000Z",
+			"observedAt": "2021-02-19T09:13:14Z",
 			"datasetId": "urn:ngsi-ld:redox:predict"
 		},
 		{
 			"type": "Property",
 			"value": 1013.25,
 			"unitCode": "2Z",
-			"observedAt": "2021-02-19T09:13:14.000Z",
+			"observedAt": "2021-02-19T09:13:14Z",
 			"datasetId": "urn:ngsi-ld:redox:measured"
 		}
 	],
@@ -47,14 +47,14 @@
 			"type": "Property",
 			"value": 1013.25,
 			"unitCode": "H61",
-			"observedAt": "2021-02-19T09:13:14.000Z",
+			"observedAt": "2021-02-19T09:13:14Z",
 			"datasetId": "urn:ngsi-ld:conductivity:predict"
 		},
 		{
 			"type": "Property",
 			"value": 1013.25,
 			"unitCode": "H61",
-			"observedAt": "2021-02-19T09:13:14.000Z",
+			"observedAt": "2021-02-19T09:13:14Z",
 			"datasetId": "urn:ngsi-ld:conductivity:measured"
 		}
 	],
@@ -63,14 +63,14 @@
 			"type": "Property",
 			"value": 1013.25,
 			"unitCode": "C62",
-			"observedAt": "2021-02-19T09:13:14.000Z",
+			"observedAt": "2021-02-19T09:13:14Z",
 			"datasetId": "urn:ngsi-ld:pH:predict"
 		},
 		{
 			"type": "Property",
 			"value": 1013.25,
 			"unitCode": "C62",
-			"observedAt": "2021-02-19T09:13:14.000Z",
+			"observedAt": "2021-02-19T09:13:14Z",
 			"datasetId": "urn:ngsi-ld:pH:measured"
 		}
 	],
@@ -82,19 +82,19 @@
 		{
 			"type": "Property",
 			"value": "spectrum1",
-			"observedAt": "2021-02-19T09:13:14.000Z",
+			"observedAt": "2021-02-19T09:13:14Z",
 			"datasetId": "urn:ngsi-ld:absorbance:1"
 		},
 		{
 			"type": "Property",
 			"value": "spectrum2",
-			"observedAt": "2021-02-19T09:13:14.000Z",
+			"observedAt": "2021-02-19T09:13:14Z",
 			"datasetId": "urn:ngsi-ld:absorbance:2"
 		},
 		{
 			"type": "Property",
 			"value": "spectrum3",
-			"observedAt": "2021-02-19T09:13:14.000Z",
+			"observedAt": "2021-02-19T09:13:14Z",
 			"datasetId": "urn:ngsi-ld:absorbance:3"
 		}
 		

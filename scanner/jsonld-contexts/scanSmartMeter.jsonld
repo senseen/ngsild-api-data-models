@@ -15,7 +15,8 @@
     "tempLamp": "https://uri.fiware.org/ns/data-models#tempLamp",
     "MLProcessing": "https://uri.fiware.org/ns/data-models#MLProcessing",
     "SubscriptionQuery": "https://uri.fiware.org/ns/data-models#SubscriptionQuery",
-    "brix": "https://uri.fiware.org/ns/data-models#brix"
-
+    "brix": "https://uri.fiware.org/ns/data-models#brix",
+    "controlledProperty": "https://uri.fiware.org/ns/data-models#controlledProperty",
+    "category": "https://uri.fiware.org/ns/data-models#category"
   }
 }
