@@ -26,6 +26,11 @@
 		"unitCode": "CEL",
 		"observedAt": "2021-02-19T09:13:14Z"
 	},
+	"location": {
+		"type": "Property",
+		"value": [43.580418,7.125102],		
+		"observedAt": "2021-02-19T09:13:14Z"
+	},
 	"redox": [
 		{
 			"type": "Property",
