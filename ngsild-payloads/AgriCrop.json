@@ -18,6 +18,6 @@
     },
     "owner":{
         "type":"Property",
-        "value":"urn:ngsi-ld:AgriCrop:login"
+        "value":"urn:ngsi-ld:Person:login"
     }
 }
