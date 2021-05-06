@@ -3,7 +3,7 @@
 		"https://raw.githubusercontent.com/senseen/ngsild-api-data-models/main/scanner/jsonld-contexts/scanSmartMeter-compound.jsonld"
 	],
 	"id": "urn:ngsi-ld:AgriCropRecord:login:nameProduct:uuid",
-	"type": "AgriParcelRecord",
+	"type": "AgriCropRecord",
 	"hasAgriCrop": {
 		"type": "Relationship",
 		"object": "urn:ngsi-ld:AgriCrop:login:nameProduct:uuid"

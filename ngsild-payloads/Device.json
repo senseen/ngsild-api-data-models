@@ -19,11 +19,11 @@
     "deviceState": {
         "type":"Property",
         "value":"ok",
-        "observedAt": "2021-02-19T09:13:14.000Z"
+        "observedAt": "2021-02-19T09:13:14Z"
     }, 
     "owner":{
-        "type":"Relationship",
-        "value":["urn:ngsi-ld:Person:login"]
+        "type":"Property",
+        "value":"urn:ngsi-ld:Person:login"
     },
     "macAddress":{
         "type":"Property",
@@ -37,23 +37,23 @@
         "type":"Property",
         "value": 25.1,
 		"unitCode": "CEL",
-		"observedAt": "2021-02-19T09:13:14.000Z"
+		"observedAt": "2021-02-19T09:13:14Z"
     },
     "humidity":{
         "type":"Property",
         "value": 0.25,
 		"unitCode": "P1",
-		"observedAt": "2021-02-19T09:13:14.000Z"
+		"observedAt": "2021-02-19T09:13:14Z"
     },
     "tempLamp":{
         "type":"Property",
         "value": 0.25,
-        "observedAt": "2021-02-19T09:13:14.000Z"
+        "observedAt": "2021-02-19T09:13:14Z"
     },
     "batteryLevel":{
         "type":"Property",
         "value": 0.25,
 		"unitCode": "P1",
-		"observedAt": "2021-02-19T09:13:14.000Z"
+		"observedAt": "2021-02-19T09:13:14Z"
     }
 }
