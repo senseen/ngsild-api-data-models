@@ -18,6 +18,10 @@
     "brix": "https://uri.fiware.org/ns/data-models#brix",
     "controlledProperty": "https://uri.fiware.org/ns/data-models#controlledProperty",
     "category": "https://uri.fiware.org/ns/data-models#category",
-    "brix": "https://uri.fiware.org/ns/data-models#brix"
+    "brix": "https://uri.fiware.org/ns/data-models#brix",
+    "dateFirstUsed": "https://uri.fiware.org/ns/data-models#dateFirstUsed",
+    "controlledProperty": "https://uri.fiware.org/ns/data-models#controlledProperty",
+    "category": "https://uri.fiware.org/ns/data-models#category",
+    "tempLamp": "https://uri.fiware.org/ns/data-models#tempLamp"
   }
 }
