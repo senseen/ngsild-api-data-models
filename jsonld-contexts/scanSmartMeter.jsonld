@@ -4,13 +4,20 @@
     "Person": "https://uri.fiware.org/ns/data-models#Person",
     "absorbance": "https://uri.fiware.org/ns/data-models#absorbance",
     "redox": "https://uri.fiware.org/ns/data-models#redox",
-    "brix": "https://uri.fiware.org/ns/data-models#brix",
     "cityName": "https://uri.fiware.org/ns/data-models#cityName",
     "lastName": "https://uri.fiware.org/ns/data-models#lastName",
     "firstName": "https://uri.fiware.org/ns/data-models#firstName",
     "addressLocality": "https://uri.fiware.org/ns/data-models#addressLocality",
     "addressCountry": "https://uri.fiware.org/ns/data-models#addressCountry",
     "addressStreet": "https://uri.fiware.org/ns/data-models#addressStreet",
-    "email": "https://uri.fiware.org/ns/data-models#email"
+    "email": "https://uri.fiware.org/ns/data-models#email",
+    "ph": "https://uri.fiware.org/ns/data-models#ph",
+    "tempLamp": "https://uri.fiware.org/ns/data-models#tempLamp",
+    "MLProcessing": "https://uri.fiware.org/ns/data-models#MLProcessing",
+    "SubscriptionQuery": "https://uri.fiware.org/ns/data-models#SubscriptionQuery",
+    "brix": "https://uri.fiware.org/ns/data-models#brix",
+    "controlledProperty": "https://uri.fiware.org/ns/data-models#controlledProperty",
+    "category": "https://uri.fiware.org/ns/data-models#category",
+    "brix": "https://uri.fiware.org/ns/data-models#brix"
   }
 }
