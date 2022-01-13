@@ -10,18 +10,18 @@
     "addressLocality": "https://uri.fiware.org/ns/data-models#addressLocality",
     "addressCountry": "https://uri.fiware.org/ns/data-models#addressCountry",
     "addressStreet": "https://uri.fiware.org/ns/data-models#addressStreet",
-    "email": "https://uri.fiware.org/ns/data-models#email",
-    "ph": "https://uri.fiware.org/ns/data-models#ph",
     "tempLamp": "https://uri.fiware.org/ns/data-models#tempLamp",
     "MLProcessing": "https://uri.fiware.org/ns/data-models#MLProcessing",
     "SubscriptionQuery": "https://uri.fiware.org/ns/data-models#SubscriptionQuery",
     "brix": "https://uri.fiware.org/ns/data-models#brix",
-    "controlledProperty": "https://uri.fiware.org/ns/data-models#controlledProperty",
-    "category": "https://uri.fiware.org/ns/data-models#category",
-    "dateFirstUsed": "https://uri.fiware.org/ns/data-models#dateFirstUsed",
-    "controlledProperty": "https://uri.fiware.org/ns/data-models#controlledProperty",
-    "category": "https://uri.fiware.org/ns/data-models#category",
-    "tempLamp": "https://uri.fiware.org/ns/data-models#tempLamp",
-    "specificAccessPolicy": "https://ontology.eglobalmark.com/egm#specificAccessPolicy"
+    "specificAccessPolicy": "https://ontology.eglobalmark.com/egm#specificAccessPolicy",
+    "reference":"https://uri.fiware.org/ns/data-models#reference",
+    "hasAgriCropRecord":"https://uri.fiware.org/ns/data-models#reference",
+    "measuredBy":"https://uri.fiware.org/ns/data-models#measuredBy",
+    "seedingDate":"https://uri.fiware.org/ns/data-models#seedingDate",
+    "siteWeb":"https://uri.fiware.org/ns/data-models#siteWeb",
+    "hasPersonAdmin":"https://uri.fiware.org/ns/data-models#hasPersonAdmin",
+    "isAdmin":"https://uri.fiware.org/ns/data-models#isAdmin",
+    "hasPerson":"https://uri.fiware.org/ns/data-models#hasPerson"
   }
 }
