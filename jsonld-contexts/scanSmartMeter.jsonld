@@ -22,7 +22,5 @@
     "siteWeb": "https://uri.fiware.org/ns/data-models#siteWeb",
     "hasPersonAdmin": "https://uri.fiware.org/ns/data-models#hasPersonAdmin",
     "isAdmin": "https://uri.fiware.org/ns/data-models#isAdmin",
-    "hasPerson": "https://uri.fiware.org/ns/data-models#hasPerson",
-    "email": "https://uri.fiware.org/ns/data-models#email",
-    "telephone": "https://uri.fiware.org/ns/data-models#telephone"
+    "hasPerson": "https://uri.fiware.org/ns/data-models#hasPerson"
   }
