@@ -1,8 +1,8 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/senseen/ngsild-api-data-models/main/jsonld-contexts/scanSmartMeter-compound.jsonld"
+        "https://raw.githubusercontent.com/senseen/ngsild-api-data-models/main/scanner/jsonld-contexts/scanSmartMeter-compound.jsonld"
     ],
-    "id": "urn:ngsi-ld:Person:nameOrganization:uuidPerson",
+    "id": "urn:ngsi-ld:Person:login",
     "type": "Person",
     "lastName": {
         "type": "Property",
@@ -22,7 +22,7 @@
     },
     "addressStreet": {
         "type": "Property",
-        "value": " xx avenue Robert Soleau"
+        "value": "avenue Robert Soleau"
     },
     "email": {
         "type": "Property",
@@ -31,13 +31,5 @@
     "telephone": {
         "type": "Property",
         "value": "0606060606"
-    },
-    "isAdmin":{
-        "type":"Property",
-        "value":"true"
-    },
-    "belongsTo":{
-        "type":"Relationship",
-        "object":"urn:ngsi-ld:Organization:nameOrganization"
     }
 }
