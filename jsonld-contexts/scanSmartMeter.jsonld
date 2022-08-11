@@ -23,6 +23,6 @@
     "category": "https://uri.fiware.org/ns/data-models#category",
     "tempLamp": "https://uri.fiware.org/ns/data-models#tempLamp",
     "specificAccessPolicy": "https://ontology.eglobalmark.com/egm#specificAccessPolicy",
-    "localisation": "https://uri.fiware.org/ns/data-models#localisation",
+    "localisation": "https://uri.fiware.org/ns/data-models#localisation"
   }
 }
